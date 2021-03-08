@@ -1,0 +1,131 @@
+body {
+    color: #282425;
+    background-color: #d6d8d5;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+a {
+    color: #756158;
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: #ffffff;    
+    margin-top: 0;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;    
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+a {
+    font-style: italic;
+}
+
+a:hover {
+    background-color: #756158;
+}
+
+.hlavicka {
+    padding: 150px 30px;
+    background-image: url(images/hlavicka.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navigace {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #88a7c4;
+}
+
+.navigace a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 20px;
+    font-style: normal;
+}
+
+.navigace a:hover,
+.navigace a:focus,
+.navigace a:active {
+    background-color: #4c6993;
+}
+
+.navigace li {
+    display: inline-block;
+}
+
+.omne {
+    padding: 20px 15%;
+}
+
+.foto-omne {
+    border-radius: 50%;
+    width: 300px;
+    float: left;
+    margin: 30px 30px 30px 0;
+}
+
+.zajmy {
+    background-color: #f9e3d0;
+    padding: 20px 15%;
+}
+
+.kontakt {
+    background-color: #88a7c4;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.turistika {
+    margin-top: 0;
+    padding: 20px 15%;
+}
+
+.turistika img {
+    width: 600px;
+    border: 2px solid #756158;
+}
+
+.rosenthal {
+    margin-top: 0;
+    padding: 20px 15%;
+}
+
+.rosenthal img {
+    width: 600px;
+    border: 2px solid #756158;
+}
+
+.divadlo {
+    margin-top: 0;
+    padding: 20px 15%;
+}
+
+.divadlo img {
+    width: 600px;
+    border: 2px solid #756158;
+}
+
+
+
